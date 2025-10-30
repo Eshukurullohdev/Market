@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<h1 class="text-red-600">Home</h1>
+<div class="w-[100%] h-[100vh] flex ">
+    <div class="h-[100vh] w-[27%] flex gap-[25px] flex-col">
+        <h1 class="text-4xl">Uzum</h1>
+        <h3>Topshirish punklari</h3>
+        <span class="text-gray-400">Vakansiyalar</span>
+    </div>
+    <div class="mt-[80px] w-[73%] h-[685px] pt-11 pl-11" style="border: 1px solid gray;">
+        <h1 class="text-[50px]">Topshirish punkti</h1>
+        <h2 class="text-[20px]">Ozbekiston 405 ta shahridagi topshirish punktlariga bepul yetkazib berish</h2>
+        <div class="flex">
+            <div class="w-[38%] h-[100vh]">
+                <p>Shahar</p>
+                <button class="w-[370px] h-[60px] bg-gray-300 text-[20px] text-left pl-[20px]"
+                    style="border-radius: 20px;">Toshkent <i class="fa-solid fa-chevron-down"></i></button>
+                <div class="w-[370px] h-[531px] mt-[20px]">
+                    <h1 class="text-[24px]">Toshkent sh., Mirzo ulug‘bek tumani, Oltintepa ko'chasi, 213 uy</h1>
+                    <p class="text-gray-400">Kiyib koʻrish joyi bor</p>
+                    <p class="text-gray-400">Toshkent sh., Mirzo ulug‘bek tumani, Oltintepa ko'chasi, 213 uy</p>
+                    <p>Dushanba: 10:00 - 20:00 </p>
+                    <p>Seshanba: 10:00 - 20:00</p>
+                    <p>Chorshanba: 10:00 - 20:00</p>
+                    <p>Shanba: 10:00 - 20:00</p>
+                    <p>Juma: 10:00 - 20:00</p>
+                    <p>Payshanba: 10:00 - 20:00</p>
+                    <p>Yakshanba: 10:00 - 20:00</p>
+                </div>
+            </div>
+            <div class="w-[62%] h-[720px] mt-[15px] ">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1456.0677786849187!2d69.24045885148331!3d41.29868972784008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1756802015702!5m2!1sen!2s"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock %}
