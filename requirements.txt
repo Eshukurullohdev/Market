@@ -1,5 +1,5 @@
-Django>=5.0
-gunicorn
-whitenoise
-dj-database-url
-
+Django>=4.2
+gunicorn                 # Render.com uchun kerak
+whitenoise               # static fayllarni xizmat qilish
+psycopg2-binary          # PostgreSQL bilan ishlash (Render default db)
+python-decouple          # .env orqali sozlamalarni ajratish uchun
